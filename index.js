@@ -18,7 +18,7 @@ async function createConnection() {
   console.log("database is connected");
   return client;
 }
-FRONTEND_URL="http://localhost:3000/"
+FRONTEND_URL="https://main--sunny-dodol-97a7c7.netlify.app/"
 export const client = await createConnection();
 
 app.get("/run", function (req, res) {
